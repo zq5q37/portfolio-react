@@ -1,15 +1,16 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";root.render();
 import { NotFound } from "./pages/NotFound";
 import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Routes>
         <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
