@@ -1,7 +1,7 @@
 export const Home = () => {
     return <div>
         {/*Theme Toggle*/}
-        
+
         {/*Background Effects*/}
 
         {/*Navbar*/}
@@ -9,5 +9,5 @@ export const Home = () => {
         {/*Main Content*/}
 
         {/*Footer*/}
-    </div>;
+    </div>;//
 };
